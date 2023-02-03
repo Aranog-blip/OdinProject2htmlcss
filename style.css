@@ -1,18 +1,18 @@
 body {
     background-color: #ADD8E6;
-    margin: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./1393228.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .logo {
     display: flex;
-    flex: 1, 1, auto;
-    text-align: right;
-    gap: 100px;
-    font-size: 35px;
-    padding: 50px;
-    background-color: #00008b;
+    justify-content: space-between;
+    flex: 1, 1, 0%;
+    font-size: 50px;
     border-radius: 25px;
-    
+    padding: 0px 40px;
 }
 
 #empty {
@@ -28,69 +28,75 @@ body {
 .title {
     display: flex;
     flex: 1, 1, auto;
-    justify-content: space-between;
+    justify-content: center;
     border-radius: 25px;
+    color: rgb(0, 0, 0);
 
 }
 .undertitle{
     display: inline-block;
-    background-color: #00008b;
     text-align: center;
     flex-shrink: 3;
     border-radius: 25px;
+    color: rgb(0, 0, 0);
 }
 
-button{
-    width: 200px;
-    height: 100px;
-    background-color: rgb(128, 74, 74);
-    border-color: black;
-    border-radius: 25px;
-
-}
 
 #quote {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    background-color: #00008b;
     display: block;
     padding: 20px;
     border-radius: 25px;
+    color: rgb(0, 0, 0);
 }
 #smalltitle{
     text-align: center;
     font-weight: bold;
     font-size: 35px;
+    color: rgb(0, 0, 0);
 }
  
 .courts {
     display: flex;
-    background-color: #00008b;
-    padding: 7px;
-    border-radius: 25px;
+    justify-content: space-between;
+    
 }
 
 #text{
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
-    margin-left: 20px;
+    margin-left: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
 }
 
 #mom {
     font-size: small;
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 #emptyend {
     display: inline-block;
     height: 200px;
-    background-color: rgb(128,113,74);
+    background-color: rgb(0, 0, 0);
 
 }
 
 img {
     border-radius: 25px;
+}
+
+.texttwo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#mcd {
+    font-size: 25px;
+    font-weight: 900;
+
 }
