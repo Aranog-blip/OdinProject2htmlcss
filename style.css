@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(128, 113, 74);
+    margin: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+    display: flex;
+    flex: 1, 1, auto;
+    text-align: center;
+    gap: 90px;
+    font-size: 20px;
+    padding: 50px;
+    background-color: rgb(65, 57, 37);
+    
+}
+
+#empty {
+    background-color: rgb(128,113,74);
+    display: inline-block;  
+    height: 50px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+#theT{
+    flex-grow: 1.5;
+}
+.title {
+    display: flex;
+    flex: 1, 1, auto;
+    justify-content: space-between;
+
+
+    
+}
+.undertitle{
+    display: inline-block;
+    background-color: rgb(65, 57, 37);
+    text-align: center;
+    flex-shrink: 3;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(128, 74, 74);
+    border-color: black;
+
+}
+
+#quote {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(65, 57, 37);
+    display: block;
+    padding: 20px;
+}
+#smalltitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.courts {
+    display: flex;
+    border: 10px rgb(65, 57, 37);
+    justify-content: space-between;
+}
+
+#mom {
+    font-size: small;
+    text-align: center;
+    color: aliceblue;
+}
+
+#emptyend {
+    display: inline-block;
+    height: 200px;
+    background-color: rgb(128,113,74);
+
+}
+
+
