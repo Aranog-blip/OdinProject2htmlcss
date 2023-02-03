@@ -1,6 +1,6 @@
 body {
     background-color: rgb(128, 113, 74);
-    margin: 80px;
+    margin: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo {
@@ -66,8 +66,9 @@ button{
 }
 .courts {
     display: flex;
-    border: 10px rgb(65, 57, 37);
+    padding: 10px;
     justify-content: space-between;
+    background-color: rgb(65, 57, 37);
 }
 
 #mom {
